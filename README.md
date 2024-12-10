@@ -24,17 +24,58 @@ In timing diagram Q0 is changing as soon as the negative edge of clock pulse is 
 
 **Procedure**
 
-/* write all the steps invloved */
+/* 1.Write the Verilog code in Quartus Prime for the 4-bit ripple counter.
+
+
+2.Compile and run the program to ensure it is error-free
+
+
+3.Generate the RTL schematic to visualize the flip-flop connections.
+
+
+4.Create nodes for the clock input (CLK) and counter outputs (Q0, Q1, Q2, Q3).
+
+
+5.Simulate the design for multiple clock cycles to observe the ripple effect.
+
+
+6.Verify the timing diagrams to ensure the counter toggles through all states (0000 to
+1111).
+
+
+7.Save the RTL schematic and timing diagrams for documentation and validation. */
 
 **PROGRAM**
 
 /* Program for 4 Bit Ripple Counter and verify its truth table in quartus using Verilog programming.
 
- Developed by: RegisterNumber:
-*/
+ Developed byBARANI S S    RegisterNumber:24900119
+
+ ![Screenshot 2024-12-10 104338](https://github.com/user-attachments/assets/cb806b12-a44d-4d59-909d-128a68b286b6)
+ ![Screenshot 2024-12-10 104348](https://github.com/user-attachments/assets/0d05441f-cc43-4ece-9ec0-b3998623ac9f)
+
+
+
 
 **RTL LOGIC FOR 4 Bit Ripple Counter**
 
+![Screenshot 2024-12-10 104356](https://github.com/user-attachments/assets/21f41c53-0e9c-40e7-a3fa-b4c25ae66b21)
+
+
+
+
 **TIMING DIGRAMS FOR 4 Bit Ripple Counter**
 
+![Screenshot 2024-12-10 104404](https://github.com/user-attachments/assets/21cf35ac-0f7e-4e4b-b922-6d573814965a)
+
+TRUTH TABLE:
+
+![Screenshot 2024-12-10 104413](https://github.com/user-attachments/assets/f800d030-c543-411d-8f57-2a605b660656)
+
+
+
+
 **RESULTS**
+
+Thus, the 4-bit Ripple Counter was successfully implemented, and its functionality was
+validated using the truth table.
